@@ -1,5 +1,5 @@
 #!/bin/bash
 
 for file in *.JPG; do
-    mv "$file" "$(basename "$file" .JPG).jpg"
+    git mv -f "$file" "$(basename "$file" .JPG).jpg"
 done
