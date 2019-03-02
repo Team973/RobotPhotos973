@@ -5,7 +5,7 @@ read year
 
 cd $year
 
-# Rename all *.txt to *.text
+# Rename all *.JPG to *.jpg
 for f in *.JPG; do 
     mv -- "$f" "${f%.JPG}.jpg"
 done
